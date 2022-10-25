@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # https://guides.rubyonrails.org/getting_started.html#resourceful-routing
   resources :articles
+    resources :comments
+  end
 end
